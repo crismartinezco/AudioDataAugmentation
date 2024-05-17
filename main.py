@@ -54,3 +54,9 @@ ax[1].set(title='Log-frequency power spectrogram')
 ax[1].label_outer()
 
 fig.colorbar(img, ax=ax, format="%+2.f dB")
+
+
+
+
+
+plot_spectrogam ()
