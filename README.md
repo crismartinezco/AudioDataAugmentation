@@ -1,3 +1,13 @@
+# Audio Augmentation and Analysis Toolbox
+
+This repository provides Python functions for audio augmentation, analysis, and visualization. It includes tools for adding noise within specific frequency ranges, time displacement, time stretching, mix-up augmentation, spectral augmentation, and various plotting utilities.
+
+## Installation
+
+```bash
+pip install librosa numpy scipy matplotlib ipython
+#For time stretching
+pip install scipy
 
 # Audio Augmentation and Analysis Toolbox
 
