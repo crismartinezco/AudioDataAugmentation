@@ -5,10 +5,8 @@ This repository provides Python functions for audio augmentation, analysis, and 
 
 ## Installation
 
-```bash
-pip install librosa numpy scipy matplotlib ipython
-#For time stretching
-pip install scipy
+  ```bash
+  pip install librosa numpy scipy matplotlib ipython
 
 ## Dependencies
 
