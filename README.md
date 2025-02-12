@@ -36,9 +36,9 @@ The functions are organized into several modules:
   - `time_stretch_with_padding(signal, speed_range=(0.7, 1.3), noise_level=0.001, n_fft=1024)`: Performs time stretching with padding.
   - `random_time_stretch(signal, n_fft, speed_range=(0.7, 1.3), noise_level=0.001)`: Applies random time stretching.
   - `mix_up(signal, patch, noise_level_dB, low_freq, high_freq, n_fft=1024)`: Applies a patch audio file to the original STFT within a specific frequency range.
-  - `specaug_time_mask(duration, hop_length, signal_stft, patch_stft)`: Performs random time masking for spectral augmentation.
+  - `specaug_time_mask(duration, hop_length, signal_stft, patch_stft)`: Performs random time masking.
   - `specaug_freq_mask(width, signal_stft, patch_stft, n_mels, sr_signal)`: Performs random frequency masking.
-  - `spec_augmentation(signal, patch, duration, hop_length, width, n_mels, n_fft)`: Combines time and frequency masking for spectral augmentation.
+  - `spec_augmentation(signal, patch, duration, hop_length, width, n_mels, n_fft)`: Combines random time and frequency masking.
 
 ### 3\. Plotting
 
