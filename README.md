@@ -5,11 +5,12 @@ This repository provides a collection of Python functions for audio augmentation
 
 ## Installation
 
-
+````markdown
   ```bash
   pip install librosa numpy scipy matplotlib ipython
   #For time stretching
   pip install scipy
+````
 
 ## Dependencies
 
