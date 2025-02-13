@@ -10,6 +10,7 @@ This repository provides a collection of Python functions for audio augmentation
   pip install librosa numpy scipy matplotlib ipython
   #For time stretching
   pip install scipy
+  ```
   ````
 
 ## Dependencies
