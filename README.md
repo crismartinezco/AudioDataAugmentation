@@ -56,11 +56,11 @@ The functions are organized into several modules:
 import librosa
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.signal import zoom  # Import zoom for time stretching
-from IPython.display import Audio #For playing audio in notebook
+from scipy.signal import zoom  
+from IPython.display import Audio 
 
 # Load audio
-audio_file = "audio.wav"  # Replace with your audio file
+audio_file = "\path\to\audio"
 signal, sr = librosa.load(audio_file, duration=5)
 
 # Add noise in a specific frequency range
@@ -87,7 +87,6 @@ Audio(noisy_audio, rate=sr) #Noisy
 Audio(time_displaced_audio, rate=sr) #Time Displaced
 Audio(time_stretched_audio, rate=sr) #Time Stretched
 
-# ... (other functions can be used similarly)
 ```
 
 ## Contributing
